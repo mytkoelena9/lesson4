@@ -8,13 +8,14 @@ h1{ color: blue;}
 
 a.link {color:rgb(240, 10, 136);}
 
-li {color: black;}
+li {color: black;
+font-family: 'Roboto', sans-serif;}
 
 
 h2{color:rgb(17, 167, 92);}
 
 h3{color:rgb(185, 15, 15);
-	font-family: 'Roboto', sans-serif;}
+	}
 
 
 
