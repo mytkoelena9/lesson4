@@ -1,0 +1,218 @@
+
+	
+html,body{
+	font-family: "Lato";
+	margin: 0 auto;
+	background-color: rgb(220, 224, 224);
+}
+/*------------------------------------------------------------------ {Хедер}-------------------------------------------------- */
+.header {
+	font-family: 'Victor Mono', monospace;
+	background: rgb(255,239,213);
+	background: linear-gradient(90deg, rgba(255,239,213,1) 0%, rgba(252,232,198,1) 0%, rgb(242, 191, 103) 28%);
+	text-align: center;
+	min-height: 180px;
+	padding: 30px;
+	top: 0;
+	z-index: 300;
+}
+
+.header__logo{
+	display: inline-block;
+	height: 130px;
+	width: 130px;
+	position: absolute;
+	left: 100px;
+	border-radius: 50%;
+	box-shadow: 0 5px 0 #000;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	background-color: #f7ebd3;
+	padding: 5px;
+}
+
+
+	.header__logo:hover{
+	margin-top: 3px;
+	box-shadow: 0 2px 0 #000;}
+
+.header__name-of-breand{
+	font-family: 'Victor Mono', monospace;
+	font-size: 70px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: 'Victor Mono', monospace;
+
+}
+.wrapper{
+	min-width: 320px;
+	margin: 0 auto;
+	
+}
+
+.sliderbox{
+	min-width: 360px;
+ }
+
+/* Основні стилі */
+.slick-slider{
+	min-width: 0;
+}
+
+/* Обмежуючий контейнер */
+.slick-list{
+	overflow: hidden;
+}
+/* Стрічка слайдів */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+	text-align: center;
+	margin: 0 auto;
+	align-items: center;
+}
+
+
+.goods {
+	text-align: center;
+	padding: 30px;
+	
+	
+}
+
+/*------------------------------------------------------------------ слайдер-------------------------------------------------- */
+.galery {
+	display: flex;
+
+}
+.slider{
+	position: relative;
+	width: 600px;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 40px ;
+	margin-bottom: 20px;
+}
+
+/* Слайд */
+.slider__item {
+	width: 500px;
+	height: 450px;
+}
+
+.slider__item img{
+	width: 450px;
+	height: 450px;
+	cursor: pointer;
+	border: 1px solid rgb(156, 154, 154);
+}
+
+/* Крапки */
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.5;
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0px 3px;
+}
+.slider .slick-dots button{
+	font-size: 0;
+	width: 8px;
+	height: 8px;
+	background-color:  rgb(244, 202, 147);
+	border-radius: 50%;
+	border: 1px solid rgb(194, 193, 193);
+}
+
+.slider .slick-dots li.slick-active button{
+	background-color: transparent;
+	border: 1px solid #ffffffd3;
+}
+.info {
+	display: flex;
+}
+/*------------------------------------------------------------------- Текст-контент-------------------------------------------------- */
+main {
+	min-height: 800px;
+	align-items: center;
+}
+
+.goods {
+	display: block;
+	font-family: 'Victor Mono', monospace;
+	flex: 0 1 50%;
+	text-align: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.goods__title { 
+	font-size: 20px;
+	text-align: center;
+
+}
+.goods__prise {
+	display: inline-block;
+	line-height: 20px;
+	color: rgb(109, 106, 106);
+	margin-left: 20px;
+	text-align: left;
+	margin-bottom: 20px;
+	
+	
+
+	
+}
+.button {
+	background-color: rgb(246, 216, 146);
+	border-radius: 40px;
+	padding: 20px;
+	max-width: 200px;
+	text-align: center;
+	align-items: center;
+	margin: 0 auto;
+	
+	
+}
+
+span{
+	display: inline-flex;
+	color: rgb(98, 95, 95);
+	padding-left: 5px;
+	text-align: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+
+
+footer {
+	display: flex;
+	background-color: bisque;
+	min-height: 160px;
+	padding: 40px;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.footer__contacts{
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	
+}
+.footer__contacts:hover {
+	margin-top: 3px;
+}
